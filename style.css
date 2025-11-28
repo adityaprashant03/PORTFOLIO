@@ -481,6 +481,9 @@ margin-top: 0;
     justify-content: space-between;
 }
 
+.heading .mobileh1{
+    opacity: 0;
+}
 .workrow h1{
     font-size: 7vw;
     font-weight: 600;
@@ -657,7 +660,7 @@ margin-top: 0;
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
 
     html, body {
         overflow-x: hidden !important;
@@ -842,6 +845,62 @@ margin-top: 0;
         transform: translateY(0) !important;
     }
 
+}
+
+
+@media (max-width: 499px) {
+
+    .deskh1{
+        opacity: 0;
+        margin:none;
+    }
+    .heading .mobileh1{
+        opacity: 1;
+    }
+
+    /* Fix work heading structure */
+    .workrow {
+        flex-direction: column !important;
+        gap: 3vw !important;
+        text-align: center !important;
+    }
+
+    .workrow .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.1;
+    }
+
+    .workrow h1 {
+        font-size: 9vw !important;
+        white-space: normal !important;
+        word-break: keep-all !important;
+    }
+
+    /* Prevent "Pro j ects" broken splitting */
+    .workrow h1 span {
+        display: inline !important;
+    }
+
+    /* Keep (03) under the heading */
+    .workrow .mini {
+        font-size: 6vw !important;
+        margin-top: 1vw;
+        text-align: center;
+    }
+
+    /* Arrow resize + centered */
+    .workrow img {
+        height: 3vh !important;
+        margin-top: 2vw;
+    }
+
+    .text-div{
+    height: 10vh;
+    overflow: hidden;
+}
 }
 
 
