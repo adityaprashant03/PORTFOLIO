@@ -687,6 +687,7 @@ margin-top: 0;
         left: 0;
         transform: translateY(5px);
     }
+    
 
     /* ROW TEXT */
     #row {
@@ -898,8 +899,13 @@ margin-top: 0;
     }
 
     .text-div{
-    height: 10vh;
+    height: 8vh;
     overflow: hidden;
+    }
+
+    .resume-box>a {
+  font-size: 10vw;
+  font-weight: 500;
 }
 }
 
