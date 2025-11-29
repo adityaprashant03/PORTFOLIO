@@ -899,14 +899,21 @@ margin-top: 0;
     }
 
     .text-div{
-    height: 8vh;
+    height: 7vh;
     overflow: hidden;
     }
 
     .resume-box>a {
   font-size: 10vw;
-  font-weight: 500;
-}
+  font-weight: 500;  
+  }
+
+  #topheading h5{
+    font-style: 15vw;
+  }
+  #loader h1{
+    font-size: 8vw;
+  }
 }
 
 
